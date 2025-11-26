@@ -1,6 +1,6 @@
-import {BoardName} from '../../common/boards/BoardName';
-import {Expansion, EXPANSIONS} from '../../common/cards/GameModule';
-import {GameOptions} from '../game/GameOptions';
+import {BoardName} from '@/common/boards/BoardName';
+import {Expansion, EXPANSIONS} from '@/common/cards/GameModule';
+import {GameOptions} from '@/server/game/GameOptions';
 
 type MAManifestSpec<V> = {
   // Creates a new instance of this Milestone or Award.
